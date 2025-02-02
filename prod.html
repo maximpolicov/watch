@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        h2{
+            margin-top: 100px;
+        }
+        @media screen and (max-width: 1012px){
+            .featured_container{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .featured_card{
+                    width: 50%;
+                }
+            }
+    </style>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">
+                <i class='bx bxs-watch nav_logo-icon'>Rolex</i>
+            </a>
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="index.html" class="nav_link active_link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html#featured" class="nav_link">Featured</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="index.html#products" class="nav_link">Products</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="gallery.html" class="nav_link">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_btns">
+                <div class="nav_shop" id="card-shop">
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-category-alt'></i>
+                </div>
+                <div class="nav_close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section container" id="featured">
+            <h2 class="section_title">
+                Products
+            </h2>
+            <div class="featured_container grid">
+                <article class="featured_card">
+                    <span class="featured_tag">Sale</span>
+                    <img src="image/featured1.png" alt="" class="featured_img">
+                    <div class="featured_data">
+                        <h3 class="featured_title">Jazzmaster</h3>
+                        <span class="featured_price">1050$</span>
+                        <button class="button featured_button">ADD TO CARD</button>
+                    </div>
+                </article>
+                <article class="featured_card">
+                    <span class="featured_tag">Sale</span>
+                    <img src="image/featured2.png" alt="" class="featured_img">
+                    <div class="featured_data">
+                        <h3 class="featured_title">Ingersoll</h3>
+                        <span class="featured_price">250$</span>
+                        <button class="button featured_button">ADD TO CARD</button>
+                    </div>
+                </article>
+                <article class="featured_card">
+                    <span class="featured_tag">Sale</span>
+                    <img src="image/featured3.png" alt="" class="featured_img">
+                    <div class="featured_data">
+                        <h3 class="featured_title">Rose gold</h3>
+                        <span class="featured_price">890$</span>
+                        <button class="button featured_button">ADD TO CARD</button>
+                    </div>
+                </article>
+                <article class="featured_card">
+                    <img src="image/w1.jpg" alt="" class="featured_img">
+                    <div class="featured_data">
+                        <h3 class="featured_title"> 
+                            Adriatica</h3>
+                        <span class="featured_price">470$</span>
+                        <button class="button featured_button">ADD TO CARD</button>
+                    </div>
+                </article>
+                <article class="featured_card">
+                    <img src="image/w2.jpg" alt="" class="featured_img">
+                    <div class="featured_data">
+                        <h3 class="featured_title">Breitling
+                            Avenger</h3>
+                        <span class="featured_price">18170$</span>
+                        <button class="button featured_button">ADD TO CARD</button>
+                    </div>
+                </article>
+                <article class="featured_card">
+                    <img src="image/w3.jpg" alt="" class="featured_img">
+                    <div class="featured_data">
+                        <h3 class="featured_title">Breitling
+                            Superocean</h3>
+                        <span class="featured_price">5000$</span>
+                        <button class="button featured_button">ADD TO CARD</button>
+                    </div>
+                </article>
+                <article class="featured_card">
+                    <img src="image/w4.jpg" alt="" class="featured_img">
+                    <div class="featured_data">
+                        <h3 class="featured_title">Breitling
+                            Top Time</h3>
+                        <span class="featured_price">7100$</span>
+                        <button class="button featured_button">ADD TO CARD</button>
+                    </div>
+                </article>
+                <article class="featured_card">
+                    <img src="image/w5.jpg" alt="" class="featured_img">
+                    <div class="featured_data">
+                        <h3 class="featured_title">Cartier
+                            Cle de Cartier</h3>
+                        <span class="featured_price">800$</span>
+                        <button class="button featured_button">ADD TO CARD</button>
+                    </div>
+                </article>
+                <article class="featured_card">
+                    <img src="image/w6.png" alt="" class="featured_img">
+                    <div class="featured_data">
+                        <h3 class="featured_title">Vacheron Constantin</h3>
+                        <span class="featured_price">385000$</span>
+                        <button class="button featured_button">ADD TO CARD</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
